@@ -122,17 +122,13 @@ h1, h2 {
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(74, 144, 226, 0.3);
-    border-color: #4A90E2;
+   transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+    border-color: #FFD700;
 }
 
 .project-card .card-title {
-    color: #4A90E2;
-}
-
-.project-card .card-text {
-    color: #B0B0B0;
+    border-color: #FFD700;
 }
 
 .project-card-disabled {
@@ -141,7 +137,7 @@ h1, h2 {
 
 .project-card-disabled:hover {
     transform: none;
-    box-shadow: 0 4px 10px rgba(74, 144, 226, 0.2);
+    box-shadow: 0 4px 10px #FFD700;
 }
 
 .card-icon {
@@ -188,24 +184,6 @@ h1, h2 {
     
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 15px;
-    background-color: #212529;
-}
-
-.footer-icon {
-    color: #F5F5DC;
-    font-size: 24px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footer-icon:hover {
-    color: #FFD700;
-}
 
 .container {
     display: flex;
@@ -238,7 +216,7 @@ h1, h2 {
 }
 
 .contact-form {
-    width: 40%;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px;
     border-radius: 10px;
