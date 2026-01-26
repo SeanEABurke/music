@@ -48,12 +48,17 @@ h1, h2 {
     text-align: center;
 }
 
+.navbar {
+    background: transparent;
+}
+
 .navbar-social {
     color: #F5F5DC;
     font-size: 20px;
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s;
+    
 }
 
 .navbar-social:hover {
