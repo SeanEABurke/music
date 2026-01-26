@@ -8,7 +8,7 @@ body {
     background-position: center;
     min-height: 100vh;
     color: #F5F5DC;
-    font-family:monospace, sans-serif, Arial;
+    font-family: 'Verdana', 'Garamond', Times, serif;
     display: flex;
     flex-direction: column;
     margin: 0;
