@@ -15,16 +15,10 @@ body {
     padding: 0;
 }
 
-/* loading animation */
-
-.page > * {
-  opacity: 0;
-  animation: fade 0.4s ease-out forwards;
-}
 
 /* Simple page fade-in */
 .page > * {
-  opacity: 0.3;
+  opacity: 0;
   animation: fadeIn 0.4s ease-out forwards;
 }
 
